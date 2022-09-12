@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="mainBox">
+      <div class="content">
+        <img src="" id="firstImage" >
+      </div>
+      <div class="songInfo">
+        <p><b class="artist"></b></p>
+        <p class="songs"></p>
+      </div>
+      <div class="progress-area">
+        <div class="progress-bar"></div>
+        <div class="timer">
+          <span id="time"></span>
+          <span>:</span>
+          <span id="second"></span>
+        </div>
+      </div>
+
+      <div class="icons">
+        <button type="button" name="button" id="leftButton"><i class="fa-solid fa-circle-chevron-left"></i></button>
+        <button type="button" name="button" id="playButton"><i class="fa-solid fa-circle-play" id="forChange"></i></button>
+        <button type="button" name="button" id="rightButton"><i class="fa-solid fa-circle-chevron-right"></i></button>
+      </div>
+      <audio src="mp3/anambabam.mp3" id="audio"></audio>
+    </div>
+    <footer>
+      <b>MuhammedFatihYüzgül</b>
+    </footer>
+    <script src="js\list.js" charset="utf-8"></script>
+    <script src="js\main.js" charset="utf-8"></script>
+  </body>
+</html>
